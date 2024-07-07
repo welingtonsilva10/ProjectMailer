@@ -42,12 +42,14 @@ class Router {
             'get' => [
                 '/'        => fn() => self::load('HomeController', 'index'),
                 '/contact' => fn() => self::load('ContactController', 'index'),
-                '/product' => fn() => self::load('ProductController', 'index')
+                '/product' => fn() => self::load('ProductController', 'index'),
+                '/login' => fn() => self::load('LoginController', 'index'),
             ],
             
             'post' => [
                 '/contact' => fn() => self::load('ContactController', 'store'),
-                '/product' => fn() => self::load('ProductController', 'index')
+                '/product' => fn() => self::load('ProductController', 'index'),
+                '/login' => fn() => self::load('LoginController', 'index'),
             ],
 
             'put' => [
@@ -83,7 +85,7 @@ class Router {
             
             if(!is_callable($router)){
                 
-                throw new Exception("A rota ({$uri}) não existe");
+                throw new Exception("A uri ({$uri}) não existe");
             }
             
             $router();

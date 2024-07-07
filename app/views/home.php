@@ -1,3 +1,2 @@
-<?php $this->layout('master', ['title' => 'SaaS'])?>
+<?php  $this->layout('master', ['title' => 'Inicio']) ?>
 
-<h1>HOME</h1>

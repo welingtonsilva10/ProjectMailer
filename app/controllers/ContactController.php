@@ -10,6 +10,6 @@ class ContactController extends Controller {
     
     public function store(){
 
-        var_dump('');
+        var_dump('Enviado');
     }
 }
