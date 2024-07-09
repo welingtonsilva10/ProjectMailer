@@ -3,35 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../assets/images/logo.svg" type="image/x-icon">
     <title>Saas <?= $this->e($title)?></title>
     <style>
-        body{
-            margin: 0;
-            padding: 0;
-            background-color: #958080;
-            width: 100vw;
-            height: 100vh;
-            position: relative;
-        }
-        header{
-            width: 100%;
-            height: 6%;
-            background-color: #cacaca;
-        }
-        footer{
-            margin-top: 2px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 6%;
-            background-color: #cacaca;
-        }
+
     </style>
 </head>
 <body>
-    
     <header>
-
+        <div class="imagePageBox">
+            <img class="imagePage" src="" alt="Sem imagem">
+        </div>
+        <nav class="navigationMenu">
+            <a class="linkPage ini" href="/">Inicio</a>
+            <a class="linkPage con" href="/contact">Contato</a>
+            <a class="linkPage pro" href="/product">Produto</a>
+            <a class="linkPage log" href="/login">Conectar</a>
+            <a class="linkPage reg" href="/register">Cadastrar</a>
+        </nav>
     </header>
 
     <?=$this->section('content')?>

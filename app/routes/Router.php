@@ -43,13 +43,15 @@ class Router {
                 '/'        => fn() => self::load('HomeController', 'index'),
                 '/contact' => fn() => self::load('ContactController', 'index'),
                 '/product' => fn() => self::load('ProductController', 'index'),
+                '/register' => fn() => self::load('RegisterController', 'index'),
                 '/login' => fn() => self::load('LoginController', 'index'),
             ],
             
             'post' => [
                 '/contact' => fn() => self::load('ContactController', 'store'),
-                '/product' => fn() => self::load('ProductController', 'index'),
-                '/login' => fn() => self::load('LoginController', 'index'),
+                '/product' => fn() => self::load('ProductController', 'store'),
+                '/register' => fn() => self::load('RegisterController', 'store'),
+                '/login' => fn() => self::load('LoginController', 'store'),
             ],
 
             'put' => [

@@ -6,6 +6,7 @@ class ProductController extends Controller {
     public function index(){
         
         $this->view('product');
+        $this->style('standard');
     }
     
     public function store(){
