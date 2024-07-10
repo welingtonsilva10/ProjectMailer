@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+/* fontes: "Red Hat Display", "Roboto" // "Baskervville SC", "Serif" // font-family: "Alata", sans-serif; */
+
+:root{
+
+    /* cores modlo 1 */
+    --taupe: #4b4237ff;
+    --goldenrod: #d5a021ff;
+    --alabaster: #ede7d9ff;
+    --taupe-gray: #a49694ff;
+    --dim-gray: #736b60ff;
+
+    /* cores modelo 2 */
+    --pearl: #e6e1c5ff;
+    --sage: #d4cb92ff;
+    --paynes-gray: #395c6bff;
+    --vista-blue: #80a4edff;
+    --columbia-blue: #bcd3f2ff;
+
+    /* cores modelo 3 ---- */
+    --orange-web: #faa916ff;
+    --white: #fbfffeff;
+    --dim-gray: #6d676eff;
+    --eerie-black: #1b1b1eff;
+    --carmine: #96031aff;
+    
+    /* cores modelo 4 */
+    --red-crayola: #ed254eff;
+    --naples-yellow: #f9dc5cff;
+    --tea-green: #c2eabdff;
+    --oxford-blue: #011936ff;
+    --charcoal: #465362ff;
+}
+

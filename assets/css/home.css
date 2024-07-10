@@ -1,0 +1,16 @@
+@media screen and (min-width: 1024px) and (max-width: 3072px) /* Desktop stylesheet */
+{
+    .ini{
+        color: var(--orange-web);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) /* Tablet stylesheet */
+{
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) /* Mobile stylesheet */
+{
+    
+}

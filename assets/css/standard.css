@@ -1,0 +1,100 @@
+@media screen and (min-width: 1024px) and (max-width: 3072px) /* Desktop stylesheet */
+{
+
+    /* --------------------------------=----------------------=-------------------------= */
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: var(--white);
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        font-family: "Alata", sans-serif;
+    }
+    header{
+        width: 100%;
+        height: 6%;
+        background-color: var(--eerie-black);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        position: relative;
+    }
+    .imagePageBox{
+        width: 40px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-90%, -50%);
+    }
+    .imagePage{
+        width: 100%;
+        height: 100%;
+    }
+    .navigationMenu{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .linkPage{
+        text-decoration: none;
+        color: var(--white);
+        margin: 0 14px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .linkPage:hover{
+        color: var(--orange-web);
+    }
+    main{
+        width: 100%;
+        height: 88%;
+        position: relative;
+        background-color: #68471c6e;
+        overflow-y: auto;
+    }
+    main div{
+        position: absolute;
+    }
+    footer{
+        margin-top: 2px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 6%;
+        background-color: var(--eerie-black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .container p{
+        color: var(--white);
+        font-size: 0.8rem;
+        margin: 0;
+        
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) /* Tablet stylesheet */
+{
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) /* Mobile stylesheet */
+{
+
+    
+}
